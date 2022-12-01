@@ -1,13 +1,12 @@
-import React from "react";
 import "./App.css";
-import Table from "./Table/Table";
+import Layout from "./components/Layout";
 
 function App() {
   return (
     <div className="App">
-      <Table />
+      <Layout />
     </div>
   );
 }
 
-export default React.memo(App);
+export default App;
